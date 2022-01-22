@@ -1,11 +1,12 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Navbar } from './components';
+import { Navbar, Showcase } from './components';
 
 function App() {
   return (
     <>
       <Navbar />
+      <Showcase />
     </>
   );
 }
