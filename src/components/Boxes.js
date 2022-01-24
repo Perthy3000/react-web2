@@ -5,7 +5,7 @@ function Boxes() {
   return (
     <section className="p-5">
       <Container>
-        <Row className="text-center">
+        <Row className="text-center g-4">
           <Col md={true}>
             <Card bg="dark" text="light">
               <Card.Body className="text-center">
