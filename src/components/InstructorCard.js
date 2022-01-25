@@ -6,7 +6,7 @@ function InstructorCard({instructor}) {
     <>
       <Card bg="light">
         <Card.Body className="text-center">
-          <img className="rounded-circle mb-3" src={instructor.img} />
+          <img className="rounded-circle mb-3" src={instructor.img} alt="" />
           <Card.Title className="mb-3">{instructor.name}</Card.Title>
           <Card.Text>
             {instructor.desc}

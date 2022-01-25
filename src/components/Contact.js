@@ -28,6 +28,7 @@ function Contact() {
           </Col>
           <Col md={true} className="text-center">
             <iframe
+              title="discord"
               src="https://discord.com/widget?id=494376688256548865&theme=dark"
               width="80%"
               height="100%"
