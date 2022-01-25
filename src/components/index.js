@@ -6,3 +6,4 @@ export { default as Learn } from "./Learn";
 export { default as Question } from "./Question";
 export { default as Instructor } from "./Instructor";
 export { default as Contact } from "./Contact";
+export { default as Footer } from "./Footer";
