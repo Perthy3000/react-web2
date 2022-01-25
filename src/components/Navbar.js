@@ -5,7 +5,7 @@ import Container from 'react-bootstrap/Container';
 
 function Navbar() {
   return(
-    <NavbarBs bg='dark' expand='lg' variant='dark' className='py-3'>
+    <NavbarBs bg='dark' expand='lg' variant='dark' className='py-3' fixed='top'>
       <Container>
         <NavbarBs.Brand href='#home'>Frontend Bootstrap</NavbarBs.Brand>
         <NavbarBs.Toggle aria-controls="responsive-navbar-nav" />
