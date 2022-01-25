@@ -1,6 +1,6 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Boxes, Learn, Navbar, Newsletter, Showcase } from './components';
+import { Boxes, Learn, Navbar, Newsletter, Question, Showcase } from './components';
 
 function App() {
   return (
@@ -10,6 +10,7 @@ function App() {
       <Newsletter />
       <Boxes />
       <Learn />
+      <Question />
     </>
   );
 }
