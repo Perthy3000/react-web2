@@ -11,9 +11,9 @@ function Navbar() {
         <NavbarBs.Toggle aria-controls="responsive-navbar-nav" />
         <NavbarBs.Collapse>
           <Nav className='ms-auto'>
-            <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
+            <Nav.Link href="#learn">What You'll Learn</Nav.Link>
             <Nav.Link href="#questions">Questions</Nav.Link>
+            <Nav.Link href="#instructors">Instructors</Nav.Link>
           </Nav>
         </NavbarBs.Collapse>
       </Container>
